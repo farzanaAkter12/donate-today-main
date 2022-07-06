@@ -2,16 +2,26 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-* {
-    box-sizing: border-box;
-}
 h1 {
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 60px;
+    font-weight: 1000;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 150px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style:normal;
+    color: orangered;
+}
+h4{
+    font-size:25px;
+    font-weight: bolder;
+    
 }
 .top-banner{
     background-image: url(images/top-banner-bg.jpg);
@@ -22,20 +32,149 @@ h2 {
         background-size: cover;
         box-shadow: 2px 2px #888888;
         margin-top: 5px;
+        margin-bottom: 40px;
     
 }
 .top-banner-text {
     margin:auto;
     padding-top: 70px;
         text-align: center;
-        width: 50%;
+        width: 60%;
         color: whitesmoke;
 }
 .link-button {
     text-decoration: none;
-    background-color: orangered;
+    background-image:repeating-linear-gradient(orangered,red);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
+    height: 30px;
+    
+}
+.donate{
+    margin: auto;
+        border: 3px solid white;
+       padding: 30px;
+        text-align: center;
+        width: 50%;
+}
+.donate-p-txt{
+    color: #888888;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.flexible-container{
+display: flex;
+margin-bottom: 50px;
+width: 90%;
+}
+.donate-amount{
+    background-color: rgba(248, 242, 236, 0.616);
+    font-size:25px;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 30px;
+    color: gray;
+    height: 80px;
+    width: 120px;
+    text-align: center;
+}
+#donate-amount-marked{
+    border: 3px solid rgb(246, 37, 0);
+    color: rgba(246, 37, 0, 0.74);
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.178);
+}
+.donate-amount-input{
+    font-family: inherit;
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid rgba(197, 196, 196, 0.655);
+        outline: 0;
+        padding: 7px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+        text-align: center;
+        margin-bottom: 40px;
+
+}
+.plan{
+    width: 30%;
+    height: 450px;
+    text-align: left;
+    padding: 40px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid white;
+        border-radius: 15px;
+}
+.plan p{
+color: gray;
+}
+
+.icon{
+    width:70px;
+    height: 70x;
+    padding-right:10px;
+    margin: 0;
+   opacity: 0.6;
+    
+}
+#plan-food{
+margin-left: 100px;
+margin-right: 10px;
+background-color: rgba(176, 224, 230, 0.474);
+border: 2px solid white;
+border-radius: 15px;
+}
+#plan-shelter{
+    margin-left: 20px;
+    
+        background-color: rgba(255, 192, 203, 0.388);
+       
+}
+#plan-medicine{
+    margin-left: 20px;
+        background-color: rgba(186, 173, 29, 0.388);
+       
+}
+#our-mission-img{
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 80%;
+    height: fit-content;
+}
+#email-input{
+   background-color: gainsboro;
+    font-family: inherit;
+        width: 50%;
+        height: 32px;
+        border: oldlace;
+        outline: 0;
+        padding: 10px ;
+      border-radius:10px 0px 0px 10px ;
+        transition: border-color 0.2s;
+        text-align: left;
+        margin-bottom: 40px;
+}
+form{
+background-color: bisque;
+text-align: center;
+width: 100%;
+height: 200px;
+padding-top: 100px;
+padding-left: 100px;
+}
+footer{
+    background-image: linear-gradient(rgb(20, 17, 17),black);
+    text-align: center;
+    height: 400px;
+    padding-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+footer p{
+    color: white;
+    font-size: x-small;
 }
